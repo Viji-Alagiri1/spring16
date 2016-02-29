@@ -1,0 +1,60 @@
+p {
+  font-family: Verdana;
+  padding: 10px;
+  }
+
+#myFirstDiv {
+  background-color:#e5f2ff;
+  color: #000080;
+  margin: 10px;
+  padding: 15px;
+  font-family: Verdana;
+  border-radius: 10px;
+  }
+  
+img {
+  height: 500px;
+  width: 500px;
+}
+
+#count {
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#riverImage {
+  height: 500px;
+  width: 500px;
+  padding-left: 20px;
+  padding-right: 35px;
+  background-size: 100%;
+}
+
+#me {
+  height: 70px;
+  width: 70px;
+  border-radius: 30px;
+}
+a {
+  color: red; 
+}
+
+#show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 20px;
+  border-radius: 35px;
+  font-size: 20px;
+  border: grey 1px solid;
+  border-radius: 35px;
+  font-weight: bold;
+  background: blue;
+  color: white;
+}
+
+

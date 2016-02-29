@@ -1,7 +1,60 @@
-<html>
-<header><title>This is title</title></header>
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Viji Alagiri</title>
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+</head>
+
+<h4 style="color:blue;"><center>Class 2 Assignment</center></h4>
 <body>
-Hello world!!!
-Is it working now?
+<div id='myFirstDiv'> 
+  <h2><center>Around New York City</center></h2>
+
+  <p>New York has diverse culture and vibrant place to live. There is always something for everyone in the City and there are no limitations for the range of activities available within the city and the suburbs.</p>
+
+  <div>
+    <center>
+    <h5>NYC Borough Map</h5>
+    <ul><img src='http://nycmap360.com/carte/image/en/nyc-borough-map.png'></ul>
+    </center>
+  </div>
+
+<p><h4><center>New York is surrounded by many water bodies</center></h4></p>
+<p><center>Click the buttons to view the stunning view of the rivers around the five boroughs!
+</center></p>
+
+<!-- on-click display the images of the rivers -->
+<center>
+  <div id=show>
+    <button id='back'>&lt;</button>
+    &nbsp;&nbsp;
+    <img id='bandImage' src = 'http://www.citylandnyc.org/wp-content/uploads/sites/14/2011/03/EastRiver-regular.jpg'>  
+    <button id='forward'>&gt;</button>
+  </div>
+  <div id='count'>
+    <span id="myNumber" color='grey'>1</span>/4
+    <br>
+    <span id="bandName" color='grey'>East River</span>
+  </div>
+</center>
+</div>
+
+</div>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+
+
 </body>
 </html>
